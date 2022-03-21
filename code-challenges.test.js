@@ -96,17 +96,17 @@
 // --------------------3) Create a function that takes in two arrays as arguments and returns one array with no duplicate values. STRETCH: Use the spread operator to pass in a dynamic number of arguments.
 
 // a) Create a test with an expect statement using the variables provided.
-
-const testArray1 = [3, 7, 10, 5, 4, 3, 3]
-const testArray2 = [7, 8, 2, 3, 1, 5, 4]
-// Expected output: [3, 7, 10, 5, 4, 8, 2, 1]
-
-describe("noDuplicates", () => {
-  it ("takes in two arrays as arguments and returns one array with no duplicate values", () => {
-  expect(noDuplicates(testArray1,testArray2)).toEqual(["3","7","10","5","4","8","2","1"])
-
-  })
-})
+//
+// const testArray1 = [3, 7, 10, 5, 4, 3, 3]
+// const testArray2 = [7, 8, 2, 3, 1, 5, 4]
+// // Expected output: [3, 7, 10, 5, 4, 8, 2, 1]
+//
+// describe("noDuplicates", () => {
+//   it ("takes in two arrays as arguments and returns one array with no duplicate values", () => {
+//   expect(noDuplicates(testArray1,testArray2)).toEqual(["3","7","10","5","4","8","2","1"])
+//
+//   })
+// })
 
 // b) Create the function that makes the test pass.
 
@@ -118,12 +118,12 @@ describe("noDuplicates", () => {
 // use the arguments value and index inside the code block
 // return only values where the first index of a value only equales the current index
 //return the specific array
-
-const noDuplicates = (array) => {
-
-  var combinedArrays = testArray1.concat(testArray2)
-  var uniqueArrays = combinedArrays
-
-  return uniqueArrays.filter((value, index))
-}
-  console.log(noDuplicates(uniqueArrays))
+//
+// const noDuplicates = (array) => {
+//
+//   var combinedArrays = testArray1.concat(testArray2)
+//   var uniqueArrays = combinedArrays
+//
+//   return uniqueArrays.filter((value, index))
+// }
+//   console.log(noDuplicates(uniqueArrays))
